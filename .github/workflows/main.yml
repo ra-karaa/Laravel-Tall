@@ -18,9 +18,9 @@ jobs:
       
       steps:
       
-        - uses: action/checkout@v1
+        - uses: action/checkout@v3
         
-        - name: Compile Css dan Js
+        - name: Compile CSS dan Javascript
         
         run: |
         
