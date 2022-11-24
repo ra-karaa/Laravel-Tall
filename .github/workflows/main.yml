@@ -10,7 +10,7 @@ on:
       
 jobs:
   
-    create-deploy-app
+    create-deploy-app:
     
       name: create deploy app
       
