@@ -1,0 +1,29 @@
+name: Deploy App
+
+on:
+
+  push:
+  
+    branches:
+    
+      - dev
+      
+jobs:
+  
+    create-deploy-app
+    
+      name: create deploy app
+      
+      runs-on: ubuntu-latest
+      
+      steps:
+      
+        - uses: action/checkout@v1
+        
+        - name: Compile Css dan Js
+        
+        run: |
+        
+        npm install
+        
+        npm run dev
