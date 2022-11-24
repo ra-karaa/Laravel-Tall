@@ -15,15 +15,3 @@ jobs:
       name: create deploy app
       
       runs-on: ubuntu-latest
-      
-      steps:
-      
-        - uses: action/checkout@v3
-        
-        - name: Compile CSS dan Javascript
-        
-        run: |
-        
-        npm install
-        
-        npm run dev
